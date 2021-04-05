@@ -1,8 +1,3 @@
-/*
-variable pubkey {
-  default="~/.ssh/id_rsa.pub"
-}
-*/
 
 locals {
   no_restricted_ip = ["0.0.0.0/0"]

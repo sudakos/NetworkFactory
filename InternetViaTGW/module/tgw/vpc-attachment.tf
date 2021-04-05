@@ -1,5 +1,4 @@
 
-
 // modules/tgw/vpc-attachment.tf
 
 variable vpc_id {}

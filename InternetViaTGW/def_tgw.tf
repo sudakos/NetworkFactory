@@ -1,8 +1,4 @@
 
-/*
-  https://dev.classmethod.jp/articles/creating-connections-between-vpcs-bia-transit-gateway-by-terraform/
-*/
-
 resource aws_ec2_transit_gateway tgw_example {
   vpn_ecmp_support                = "disable"
   default_route_table_association = "disable"
